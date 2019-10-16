@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>app版本管理</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../../resource/lib/extjs6.0/classic/theme-crisp/resources/theme-crisp-all.css"></link>
+<script src="../../resource/lib/extjs6.0/ext-all.js"></script>
+<script src="../../resource/lib/extjs6.0/classic/locale/locale-zh_CN.js"></script>
+<script type="text/javascript" src="../../resource/js/app.js"></script>
+
+<script type="text/javascript">
+	var dataStore;
+
+	Ext.onReady(function() {
+		dataStore = Ext.create('Ext.data.Store', {
+			fields : [ 'type','version','kid'],
+			remoteSort : false,
+			autoLoad : true,
+			sorters : {
+				property : 'type',
+				direction : 'ASC'
+			},
+			proxy : {
+				type : "ajax",
+				url : getServerHttp()+"/cp/app/list_data.htm",
+				reader : {
+					type : 'json',
+					root : 'list'
+				}
+			}
+		}); //#dataStore
+
+		var listGridPanel = Ext.create('Ext.grid.Panel', {
+			title : 'app版本管理',
+			tbar : [ {
+				text : '新增',
+				xtype : 'button',
+				icon : jcapp.getIcon("add.png"),
+				handler : function() {
+					myAdd();
+				}
+			} ],
+			store : dataStore,
+			columns : [ {
+				text : '系统',
+				dataIndex : 'name',
+				flex : 1
+			} , {
+				text : '设备',
+				dataIndex : 'type',
+				flex : 1
+			} , {
+				text : '版本',
+				dataIndex : 'version',
+				flex : 1
+			} , {
+				text : '链接',
+				dataIndex : 'url',
+				flex : 1
+			} , {
+				xtype : "actioncolumn",
+				align : "center",
+				text : '操作',
+				flex : 1,
+				items : [ {
+					xtype : 'button',
+					tooltip : '编辑',
+					icon : jcapp.getIcon("edit.png"),
+					handler : function(grid, rowIndex, colIndex) {
+						var rec = grid.getStore().getAt(rowIndex);
+						//alert("编辑 " + rec.get('kid'));
+						myEdit(rec.get('kid'));
+					}
+				},{xtype:"container"}, {
+					xtype : 'button',
+					tooltip : '删除',
+					icon : jcapp.getIcon("delete.png"),
+					handler : function(grid, rowIndex, colIndex) {
+						var rec = grid.getStore().getAt(rowIndex);
+						myDel(rec.get('kid'));					
+					}				
+				} ]
+
+			} ]
+		}); //#listGridPanel
+
+		listGridPanel.render(Ext.getBody());
+	});
+
+	function myDel(kid) {
+		Ext.Msg.confirm("提示:", "确定删除选定的记录?", function(e) {
+			if (e == "yes") {
+				Ext.Ajax.request({
+					url : getServerHttp()+"/cp/app/del.htm?kid=" + kid,
+					success : function(response) {
+						var json = Ext.decode(response.responseText);
+						Ext.Msg.alert("提示", json.tip.msg);
+						dataStore.load();
+					},
+					failure : function(response) {
+						Ext.Msg.alert("提示", "操作失败!");
+					}
+				});
+			}//#if
+		});
+	}//#myDel
+</script>
+
+<script type="text/javascript" src="add.js"></script>
+<script type="text/javascript" src="edit.js"></script>
+</head>
+<body>
+
+</body>
+</html>

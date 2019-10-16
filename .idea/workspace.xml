@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25141c0a-d2cb-4d08-9d61-3fb7cfb016ad" name="默认" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_cp/LoginCpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_cp/LoginCpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_cp/admin/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_cp/admin/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_cp/app/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_cp/app/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_cp/area/AreaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_cp/area/AreaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_cp/email/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_cp/email/EmailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_cp/email/EmailTemplateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_cp/email/EmailTemplateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_cp/file/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_cp/file/FileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_cp/frame/FrameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_cp/frame/FrameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_cp/role/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_cp/role/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_cp/role/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_cp/role/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_cp/setting/SettingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_cp/setting/SettingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_cp/shop/ShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_cp/shop/ShopController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_cp/shop/ShopMenuAuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_cp/shop/ShopMenuAuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_cp/shop/ShopMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_cp/shop/ShopMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_cp/sms/SmsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_cp/sms/SmsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_cp/sms/SmsTemplateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_cp/sms/SmsTemplateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_cp/website/WebsiteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_cp/website/WebsiteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_cp/wx/WxAuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_cp/wx/WxAuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_moblie/MnpIndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_moblie/MnpIndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_moblie/MoblieIndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_moblie/MoblieIndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_moblie/WxIndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_moblie/WxIndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_rest/CodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_rest/CodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_rest/ImgController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_rest/ImgController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_rest/MenuLevelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_rest/MenuLevelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_rest/UniqueCheckController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_rest/UniqueCheckController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_rest/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_rest/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_shop/admin/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_shop/admin/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_shop/frame/FrameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_shop/frame/FrameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_shop/frame/ShopUniqueCheckController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_shop/frame/ShopUniqueCheckController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_shop/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_shop/login/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_shop/role/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_shop/role/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_shop/role/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_shop/role/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/action_shop/setting/SettingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/action_shop/setting/SettingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/base/action/ProjBaseAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/base/action/ProjBaseAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/base/service/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/base/service/BaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/base/tip/Tip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/base/tip/Tip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/interceptor/ExtInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/interceptor/ExtInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/interceptor/LoginShopInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/interceptor/LoginShopInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/interceptor/WxInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/interceptor/WxInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/model/t_fk_admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/model/t_fk_admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/model/t_fk_area.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/model/t_fk_area.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/model/t_fk_auth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/model/t_fk_auth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/model/t_fk_email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/model/t_fk_email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/model/t_fk_email_template.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/model/t_fk_email_template.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/model/t_fk_feedback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/model/t_fk_feedback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/model/t_fk_file.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/model/t_fk_file.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/model/t_fk_role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/model/t_fk_role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/model/t_fk_setting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/model/t_fk_setting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/model/t_fk_sms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/model/t_fk_sms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/model/t_fk_sms_template.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/model/t_fk_sms_template.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/model/t_fk_version.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/model/t_fk_version.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/model/t_fk_website.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/model/t_fk_website.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/model/t_fk_wx_auth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/model/t_fk_wx_auth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/model/t_shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/model/t_shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/model/t_shop_admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/model/t_shop_admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/model/t_shop_menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/model/t_shop_menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/model/t_shop_menu_auth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/model/t_shop_menu_auth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/model/t_shop_role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/model/t_shop_role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/model/t_shop_setting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/model/t_shop_setting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/model/t_shop_shengcanlicense.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/model/t_shop_shengcanlicense.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/model/t_shop_units.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/model/t_shop_units.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/model/t_shop_yingyelicense.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/model/t_shop_yingyelicense.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/service/AppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/service/AppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/service/AreaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/service/AreaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/service/DbService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/service/DbService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/service/DictService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/service/DictService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/service/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/service/FileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/service/JdbcService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/service/JdbcService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/service/MenuLevelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/service/MenuLevelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/service/MenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/service/SettingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/service/SettingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/service/ShopAdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/service/ShopAdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/service/ShopAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/service/ShopAuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/service/ShopMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/service/ShopMenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/service/ShopRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/service/ShopRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/service/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/service/ShopService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/service/SmsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/service/SmsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/service/WebsiteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/service/WebsiteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/AmountUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/AmountUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/AppUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/AppUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/CalenderTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/CalenderTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/ChkTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/ChkTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/DateTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/DateTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/ExcelReadToolForList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/ExcelReadToolForList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/KdniaoTrackQueryAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/KdniaoTrackQueryAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/ListTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/ListTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/OrderTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/OrderTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/RequestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/RequestUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/SpringTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/SpringTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/SrhTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/SrhTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/StringTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/StringTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/TimeTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/TimeTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/WxCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/WxCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/baidu/MapUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/baidu/MapUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/cmd/CmdTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/cmd/CmdTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/cookie/CookieTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/cookie/CookieTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/des/DESCoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/des/DESCoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/des/DESedeCoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/des/DESedeCoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/des/EncryptDES.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/des/EncryptDES.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/doc/excel/ExcelCheckTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/doc/excel/ExcelCheckTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/doc/excel/ExcelExport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/doc/excel/ExcelExport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/doc/excel/ExcelReadTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/doc/excel/ExcelReadTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/doc/excel/test.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/doc/excel/test.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/ext/ExtTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/ext/ExtTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/file/FileTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/file/FileTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/html/HtmlTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/html/HtmlTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/html/name_filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/html/name_filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/http/GetOpenid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/http/GetOpenid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/http/GetToke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/http/GetToke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/http/HttpJsonTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/http/HttpJsonTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/http/HttpTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/http/HttpTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/http/HttpXmlTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/http/HttpXmlTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/http/SSLHttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/http/SSLHttpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/img/ImgTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/img/ImgTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/ip/IPTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/ip/IPTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/jdbc/JdbcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/jdbc/JdbcUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/jdbc/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/jdbc/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/json/JsonTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/json/JsonTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/mail/MailAliyunTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/mail/MailAliyunTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/mail/MailTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/mail/MailTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/math/BigDecimalTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/math/BigDecimalTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/math/MathTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/math/MathTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/money/MoneyTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/money/MoneyTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/ocr/XunLongFace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/ocr/XunLongFace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/ocr/XunLongOCR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/ocr/XunLongOCR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/ocr/ceshi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/ocr/ceshi.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/oos/HelloOSS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/oos/HelloOSS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/qrcode/QRTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/qrcode/QRTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/random/RandomTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/random/RandomTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/recommend/RecommendTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/recommend/RecommendTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/sms/SmsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/sms/SmsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/sms/SmsTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/sms/SmsTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/sms/resourceTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/sms/resourceTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/socket/SocketTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/socket/SocketTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/sql/SybaseDbDelHandleTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/sql/SybaseDbDelHandleTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/sql/SybaseDbHandleTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/sql/SybaseDbHandleTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/tree/AliTreeTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/tree/AliTreeTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/tree/AreaTreeTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/tree/AreaTreeTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/tree/CateTreeTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/tree/CateTreeTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/tree/TreeTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/tree/TreeTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/tree/WxTreeTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/tree/WxTreeTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/wx/MD5Kit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/wx/MD5Kit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/wx/MessageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/wx/MessageUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/wx/PayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/wx/PayUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/wx/PaymentAPIRefund.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/wx/PaymentAPIRefund.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/wx/PaymentAPIScan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/wx/PaymentAPIScan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/wx/PaymentApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/wx/PaymentApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/wx/PaymentKit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/wx/PaymentKit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/wx/QywxConfigTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/wx/QywxConfigTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/wx/UUIDHexGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/wx/UUIDHexGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/wx/WxConfigTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/wx/WxConfigTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/wx/WxJsApiTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/wx/WxJsApiTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/wx/will_del/MD5Kit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/wx/will_del/MD5Kit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/wx/will_del/MediaApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/wx/will_del/MediaApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/wx/will_del/PaymentAPIRefund.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/wx/will_del/PaymentAPIRefund.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/wx/will_del/PaymentAPIToUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/wx/will_del/PaymentAPIToUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/wx/will_del/PaymentApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/wx/will_del/PaymentApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/util/wx/will_del/PaymentKit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/util/wx/will_del/PaymentKit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/web/SessionTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/web/SessionTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tmsps/shannonpay/web/WebTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tmsps/frame_demo/web/WebTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp_moblie/input.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp_moblie/input.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp_moblie/wx/test_input.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp_moblie/wx/test_input.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login_cp.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login_cp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/js/main_face_id.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/js/main_face_id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/js/main_file_id.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/js/main_file_id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/js/upfile_aliyun_oos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/js/upfile_aliyun_oos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view_cp/equipment/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view_cp/equipment/add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view_cp/equipment/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view_cp/equipment/edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view_cp/equipment/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view_cp/equipment/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view_cp/shop/main_file_id.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view_cp/shop/main_file_id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view_shop(AI)/record/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view_shop(AI)/record/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view_shop(AI)/units/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view_shop(AI)/units/add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view_shop(AI)/units/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view_shop(AI)/units/edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view_shop(AI)/units/equipment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view_shop(AI)/units/equipment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view_shop(AI)/units/tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view_shop(AI)/units/tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view_shop(AI)/user/face/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view_shop(AI)/user/face/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view_shop(AI)/user/face/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view_shop(AI)/user/face/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view_shop(AI)/user/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view_shop(AI)/user/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view_shop/admin/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view_shop/admin/add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view_shop/admin/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view_shop/admin/edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view_shop/admin/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view_shop/admin/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view_shop/admin/pwd.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view_shop/admin/pwd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view_shop/admin/role/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view_shop/admin/role/add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view_shop/admin/role/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view_shop/admin/role/edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view_shop/admin/role/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view_shop/admin/role/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view_shop/car/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view_shop/car/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view_shop/car/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view_shop/car/edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view_shop/car/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view_shop/car/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/ReflectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/ReflectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestSQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/encryptDES.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/encryptDES.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1SH5FmBiuFgwqZcAch6prLYnhbw" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="frame_demo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="frame_demo" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25141c0a-d2cb-4d08-9d61-3fb7cfb016ad" name="默认" comment="" />
+      <created>1571207578184</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571207578184</updated>
+      <workItem from="1571207579423" duration="24000" />
+      <workItem from="1571207618270" duration="3000" />
+      <workItem from="1571207625835" duration="1803000" />
+      <workItem from="1571213550935" duration="2543000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

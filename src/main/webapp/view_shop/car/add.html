@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>费用登记</title>
+    <link rel="shortcut icon" href="../../resource/img/favicon.ico"/>
+    <link href="../../resource/Hplus-v.4.1.0/css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <link href="../../resource/Hplus-v.4.1.0/css/font-awesome.css?v=4.4.0" rel="stylesheet">
+    <link href="../../resource/Hplus-v.4.1.0/css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="../../resource/Hplus-v.4.1.0/css/plugins/chosen/chosen.css" rel="stylesheet">
+    <link href="../../resource/Hplus-v.4.1.0/css/plugins/colorpicker/css/bootstrap-colorpicker.min.css" rel="stylesheet">
+    <link href="../../resource/Hplus-v.4.1.0/css/plugins/cropper/cropper.min.css" rel="stylesheet">
+    <link href="../../resource/Hplus-v.4.1.0/css/plugins/switchery/switchery.css" rel="stylesheet">
+    <link href="../../resource/Hplus-v.4.1.0/css/plugins/jasny/jasny-bootstrap.min.css" rel="stylesheet">
+    <link href="../../resource/Hplus-v.4.1.0/css/plugins/nouslider/jquery.nouislider.css" rel="stylesheet">
+    <link href="../../resource/Hplus-v.4.1.0/css/plugins/datapicker/datepicker3.css" rel="stylesheet">
+    <link href="../../resource/Hplus-v.4.1.0/css/plugins/ionRangeSlider/ion.rangeSlider.css" rel="stylesheet">
+    <link href="../../resource/Hplus-v.4.1.0/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" rel="stylesheet">
+    <link href="../../resource/Hplus-v.4.1.0/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet">
+    <link href="../../resource/Hplus-v.4.1.0/css/plugins/clockpicker/clockpicker.css" rel="stylesheet">
+    <link href="../../resource/Hplus-v.4.1.0/css/animate.css" rel="stylesheet">
+    <link href="../../resource/Hplus-v.4.1.0/css/style.css?v=4.1.0" rel="stylesheet">
+    <link rel="stylesheet" href="../../resource/sweetalert-master/dist/sweetalert.css">
+    <style type="text/css">
+    	.form-horizontal .form-group {
+		    margin-right: 0px;
+		    margin-left: 0px;
+		}
+    </style>
+
+</head>
+
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>费用登记<small></small></h5>
+                </div>
+                <div class="ibox-content">
+                	<form class="form-horizontal" method="get">
+	                        <div class="form-group has-success">
+	                            <label class="col-sm-2 control-label">司机姓名</label>
+	                            <div class="col-sm-3">
+	                                <div class="row">
+	                                    <div class="col-md-10">
+	                                        <input type="text" placeholder="" id="name" class="form-control">
+	                                    </div>
+	                                </div>
+	                            </div>
+	                            <label class="col-sm-2 control-label">车牌号码</label>
+	                            <div class="col-sm-3">
+	                                <div class="row">
+	                                    <div class="col-md-10">
+	                                        <input type="text" placeholder="" id="code" class="form-control">
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </div>
+	                        <div class="hr-line-dashed"></div>
+	                        <div class="form-group has-success">
+	                            <label class="col-sm-2 control-label">载货日期</label>
+	                            <div class="col-sm-3">
+	                                <div class="row">
+	                                    <div class="col-md-10">
+					                        <div class="form-group" id="data_1">
+						                        <div class="input-group date">
+						                            <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+						                            <input type="text" class="form-control" id="loading_date" value="">
+						                        </div>
+						                    </div>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                            <label class="col-sm-2 control-label">实收</label>
+	                            <div class="col-sm-3">
+	                                <div class="row">
+	                                    <div class="col-md-10">
+	                                        <div class="input-group m-b">
+			                                    <input type="text" id="real" class="form-control">
+			                                    <span class="input-group-addon">kg</span>
+			                                </div>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group has-success">
+	                            <label class="col-sm-2 control-label">毛重</label>
+	                            <div class="col-sm-3">
+	                                <div class="row">
+	                                    <div class="col-md-10">
+	                                        <div class="input-group m-b">
+			                                    <input type="text" id="gross_weight" class="form-control">
+			                                    <span class="input-group-addon">kg</span>
+			                                </div>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                            <label class="col-sm-2 control-label">起始地点</label>
+	                            <div class="col-sm-3">
+	                                <div class="row">
+	                                    <div class="col-md-10">
+	                                        <input type="text" id="start_locale" placeholder="" class="form-control">
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group has-success">
+	                            <label class="col-sm-2 control-label">到达地点</label>
+	                            <div class="col-sm-3">
+	                                <div class="row">
+	                                    <div class="col-md-10">
+	                                        <input type="text" id="end_locale" placeholder="" class="form-control">
+	                                    </div>
+	                                </div>
+	                            </div>
+	                            <label class="col-sm-2 control-label">过路费用</label>
+	                            <div class="col-sm-3">
+	                                <div class="row">
+	                                    <div class="col-md-10">
+	                                        <div class="input-group m-b">
+		                                        <span class="input-group-addon">&yen;</span>
+			                                    <input type="text" id="road_toll" class="form-control">
+			                                    <span class="input-group-addon">元</span>
+			                                </div>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group has-success">
+	                            <label class="col-sm-2 control-label">加油费用</label>
+	                            <div class="col-sm-3">
+	                                <div class="row">
+	                                    <div class="col-md-10">
+	                                        <div class="input-group m-b">
+	                                        	<span class="input-group-addon">&yen;</span>
+			                                    <input type="text" id="refuel_toll" class="form-control">
+			                                    <span class="input-group-addon">元</span>
+			                                </div>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                            <label class="col-sm-2 control-label">餐饮住宿</label>
+	                            <div class="col-sm-3">
+	                                <div class="row">
+	                                    <div class="col-md-10">
+	                                        <div class="input-group m-b">
+		                                        <span class="input-group-addon">&yen;</span>
+			                                    <input type="text" id="catering_toll" class="form-control">
+			                                    <span class="input-group-addon">元</span>
+			                                </div>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group has-success">
+	                            <label class="col-sm-2 control-label">卸车费用</label>
+	                            <div class="col-sm-3">
+	                                <div class="row">
+	                                    <div class="col-md-10">
+	                                        <div class="input-group m-b">
+		                                        <span class="input-group-addon">&yen;</span>
+			                                    <input type="text" id="unload_toll" class="form-control">
+			                                    <span class="input-group-addon">元</span>
+			                                </div>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group has-success">
+                                <div class="col-sm-4 col-sm-offset-2">
+                                    <a class="btn btn-primary" href="javascript:submit()" type="submit">保存</a>
+                                    <a class="btn btn-white" href="javascript:history.go(-1)" type="button">取消</a>
+                                </div>
+                            </div>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../../resource/sweetalert-master/dist/sweetalert.min.js"></script>
+<script src="../../resource/Hplus-v.4.1.0/js/jquery.min.js?v=2.1.4"></script>
+<script src="../../resource/Hplus-v.4.1.0/js/bootstrap.min.js?v=3.3.6"></script>
+<script src="../../resource/Hplus-v.4.1.0/js/content.js?v=1.0.0"></script>
+<script src="../../resource/Hplus-v.4.1.0/js/plugins/chosen/chosen.jquery.js"></script>
+<script src="../../resource/Hplus-v.4.1.0/js/plugins/jsKnob/jquery.knob.js"></script>
+<script src="../../resource/Hplus-v.4.1.0/js/plugins/jasny/jasny-bootstrap.min.js"></script>
+<script src="../../resource/Hplus-v.4.1.0/js/plugins/datapicker/bootstrap-datepicker.js"></script>
+<script src="../../resource/Hplus-v.4.1.0/js/plugins/prettyfile/bootstrap-prettyfile.js"></script>
+<script src="../../resource/Hplus-v.4.1.0/js/plugins/nouslider/jquery.nouislider.min.js"></script>
+<script src="../../resource/Hplus-v.4.1.0/js/plugins/switchery/switchery.js"></script>
+<script src="../../resource/Hplus-v.4.1.0/js/plugins/ionRangeSlider/ion.rangeSlider.min.js"></script>
+<script src="../../resource/Hplus-v.4.1.0/js/plugins/iCheck/icheck.min.js"></script>
+<script src="../../resource/Hplus-v.4.1.0/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="../../resource/Hplus-v.4.1.0/js/plugins/colorpicker/bootstrap-colorpicker.min.js"></script>
+<script src="../../resource/Hplus-v.4.1.0/js/plugins/clockpicker/clockpicker.js"></script>
+<script src="../../resource/Hplus-v.4.1.0/js/plugins/cropper/cropper.min.js"></script>
+<script src="../../resource/Hplus-v.4.1.0/js/demo/form-advanced-demo.js"></script>
+<script type="text/javascript">
+    	function submit() {
+			var name = $("#name").val();
+			var code = $("#code").val();
+			var loading_date = $("#loading_date").val()+' 00:00:00';
+			var real = $("#real").val();
+			var gross_weight = $("#gross_weight").val();
+			var start_locale = $("#start_locale").val();
+			var end_locale = $("#end_locale").val();
+			var road_toll = $("#road_toll").val();
+			var refuel_toll = $("#refuel_toll").val();
+			var catering_toll = $("#catering_toll").val();
+			var unload_toll = $("#unload_toll").val();
+			var total = $("#total").val();
+			
+			if(name==""||code==""||loading_date==""||real==""||gross_weight==""||start_locale==""||end_locale==""||road_toll==""||refuel_toll==""||catering_toll==""||unload_toll==""||total==""){
+				 swal ( "保存错误" ,  "当前信息为空" ,  "error" );
+	    		 return;
+			}
+			
+			$.ajax({
+                 url: "/frame_demo/cp/car/add.htm",
+                 data: {code:code,name:name,loading_date_note:loading_date,real:real,gross_weight:gross_weight,start_locale:start_locale,end_locale:end_locale,road_toll:road_toll,refuel_toll:refuel_toll,catering_toll:catering_toll,unload_toll:unload_toll,total:total},  
+	             dataType: "json",
+	             success: function(data){
+	            	 console.log(data);
+	            	 swal({
+	                     title: "保存成功",
+	                     text: "",
+	                     type: "success"
+	                 }, function () {
+		            	 history.go(-1)
+	                 });
+                 }
+	         });
+        }
+</script>
+</body>
+
+</html>

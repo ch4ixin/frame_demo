@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>费用登记记录</title>
+<link rel="stylesheet" href="../../resource/lib/extjs6.0/classic/theme-crisp/resources/theme-crisp-all.css"></link>
+<script src="../../resource/lib/extjs6.0/ext-all.js"></script>
+<script src="../../resource/lib/extjs6.0/classic/locale/locale-zh_CN.js"></script>
+<script type="text/javascript" src="../../resource/js/app.js"></script>
+<script type="text/javascript">
+	var dataStore = Ext.create('Ext.data.Store', {
+		remoteSort : true,
+		autoLoad : true,
+		pageSize : 20,
+		sorters : {
+			property : 'created',
+			direction : 'DESC'
+		},
+		proxy : {
+			type : "ajax",
+			url : "/frame_demo/cp/car/list_data.htm",
+			reader : {
+				type : 'json',
+				root : 'list',
+				totalProperty : 'page.totalRow'
+			}
+		},
+		listeners : {
+			'beforeload' : function(store, op, options) {
+				var params = searchFormPanel.getForm().getValues();
+				Ext.apply(dataStore.proxy.extraParams, params);
+			}
+		}
+	}); //#dataStore
+
+ 	var searchFormPanel = Ext.create('Ext.form.Panel', {
+		frame : true,
+		title : "搜索条件",
+		style : {marginBottom : '5px'},
+		bodyStyle : {padding: '10px'},
+		buttonAlign : "center",
+		collapsible : true,
+		defaultType : "textfield",
+		items : [ {
+			xtype : "container",
+			layout : "hbox",
+			items : [ {
+				xtype : "textfield",
+				fieldLabel : "司机姓名",
+				name : "srh.name"
+			}, {
+				xtype : "textfield",
+				fieldLabel : "车牌号码",
+				name : "srh.code"
+			}, {
+	            xtype:'datefield',
+	            fieldLabel:'开始日期',
+				name : "srh.start_date",
+	            format:'Y-m-d H:i:s',
+	            value:'1970-01-01 00:00:00'
+			}, {
+	            xtype:'datefield',
+	            fieldLabel:'结束日期',
+				name : "srh.end_date",
+	            format:'Y-m-d H:i:s',
+	            value:new Date()
+			}]
+		} ],
+		buttons : [ {
+			text : "搜索",
+			icon : jcapp.getIcon("magnifier.png"),
+			handler : function() {
+				dataStore.load({});
+				dataStore.sync();
+			}
+		}, {
+			text : "重置",
+			icon : jcapp.getIcon("arrow_refresh.png"),
+			handler : function() {
+				this.up('form').getForm().reset();
+				dataStore.load({});
+				dataStore.sync();
+			}
+		} ]
+	}); //#searchFormPanel
+	
+	var listGridPanel = Ext.create('Ext.grid.Panel', {
+		title : '费用登记记录',
+		tbar : [ {
+			text : '新增',
+			xtype : 'button',
+			icon : jcapp.getIcon("add.png"),
+			handler : function() {
+				window.location.href="add.html";
+			}
+		} ],
+		dockedItems : [ {
+			xtype : 'pagingtoolbar',
+			store : dataStore, // same store GridPanel is using
+			dock : 'bottom',
+			displayInfo : true
+		} ],
+		viewConfig:{  
+        	enableTextSelection:true  
+    	},
+		store : dataStore,
+		columns : [ {
+			text : '司机姓名',
+			dataIndex : 'name',
+			flex : 1
+		}, {
+			text : '车牌号码',
+			dataIndex : 'code',
+			flex : 1
+		}, {
+			text : '载货日期',
+			dataIndex : 'loading_date',
+			flex : 1,
+			renderer : function(val) {
+				if (val != '') {
+					return Ext.Date.format(new Date(val), "Y-m-d ");
+				}
+			}
+		}, {
+			text : '实收（kg）',
+			dataIndex : 'real',
+			flex : 1
+		}, {
+			text : '毛重（kg）',
+			dataIndex : 'gross_weight',
+			flex : 1
+		}, {
+			text : '起始地点',
+			dataIndex : 'start_locale',
+			flex : 1
+		}, {
+			text : '到达地点',
+			dataIndex : 'end_locale',
+			flex : 1
+		}, {
+			text : '过路费用（元）',
+			dataIndex : 'road_toll',
+			flex : 1
+		}, {
+			text : '加油费用（元）',
+			dataIndex : 'refuel_toll',
+			flex : 1
+		}, {
+			text : '餐饮住宿（元）',
+			dataIndex : 'catering_toll',
+			flex : 1
+		}, {
+			text : '卸车费用（元）',
+			dataIndex : 'unload_toll',
+			flex : 1
+		}, {
+			text : '合计（元）',
+			dataIndex : 'total',
+			flex : 1
+		}, {
+			xtype : "actioncolumn",
+			align : "center",
+			text : '操作',
+			items : [{
+				xtype : 'button',
+				tooltip : '修改',
+				icon : jcapp.getIcon("edit.png"),
+				handler : function(grid, rowIndex, colIndex) {
+					var rec = grid.getStore().getAt(rowIndex);
+					myEdit(rec.get('kid'));
+				}
+			},{xtype:"container"},{
+				xtype : 'button',
+				tooltip : '打印',
+				icon : jcapp.getIcon("look.png"),
+				handler : function(grid, rowIndex, colIndex) {
+					var rec = grid.getStore().getAt(rowIndex);
+					window.open("/frame_demo/cp/car/print.htm?kid="+rec.get('kid'));
+				}
+			},{xtype:"container"}, {
+				xtype : 'button',
+				tooltip : '删除',
+				icon : jcapp.getIcon("delete.png"),
+				handler : function(grid, rowIndex, colIndex) {
+					var rec = grid.getStore().getAt(rowIndex);
+					myDel(rec.get('kid'));					
+				}				
+			} ]
+
+		}]
+	}); //#listGridPanel
+	
+	Ext.onReady(function() {
+		searchFormPanel.render(Ext.getBody());
+		listGridPanel.render(Ext.getBody());
+
+	});
+	
+	function myDel(kid) {
+		Ext.Msg.confirm("提示:", "确定删除选定的记录?", function(e) {
+			if (e == "yes") {
+				Ext.Ajax.request({
+					url : "/frame_demo/cp/car/del.htm?kid=" + kid,
+					success : function(response) {
+						var json = Ext.decode(response.responseText);
+						Ext.Msg.alert("提示", json.tip.msg);
+						dataStore.load();
+					},
+					failure : function(response) {
+						Ext.Msg.alert("提示", "操作失败!");
+					}
+				});
+			}//#if
+		});
+	}//#myDel
+</script>
+<script type="text/javascript" src="edit.js"></script>
+</head>
+<body>
+</body>
+</html>

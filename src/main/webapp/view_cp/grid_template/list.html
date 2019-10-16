@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>表格模板管理</title>
+<link rel="stylesheet" href="../../resource/lib/extjs6.0/classic/theme-crisp/resources/theme-crisp-all.css"></link>
+<script src="../../resource/lib/extjs6.0/ext-all.js"></script>
+<script src="../../resource/lib/extjs6.0/classic/locale/locale-zh_CN.js"></script>
+<script type="text/javascript" src="../../resource/js/app.js"></script>
+<script src="../../resource/Hplus-v.4.1.0/js/jquery.min.js"></script>
+<script type="text/javascript">
+	var dataStore;
+	dataStore = Ext.create('Ext.data.Store', {
+		remoteSort : true,
+		autoLoad : true,
+		pageSize : 15,
+		sorters : {
+			property : 'created',
+			direction : 'ASC'
+		},
+		proxy : {
+			type : "ajax",
+			url : getServerHttp() + "/cp/grid/template/list_data.htm",
+			reader : {
+				type : 'json',
+				root : 'list',
+				totalProperty : 'page.totalRow'
+			}
+		}
+	}); //#dataStore
+
+	var listGridPanel = Ext.create('Ext.grid.Panel', {
+		title : '模板列表',
+		tbar : [ {
+			text : '新增',
+			xtype : 'button',
+			icon : jcapp.getIcon("add.png"),
+			handler : function() {
+				myAdd();
+			}
+		} ],
+		dockedItems : [ {
+			xtype : 'pagingtoolbar',
+			store : dataStore, // same store GridPanel is using
+			dock : 'bottom',
+			displayInfo : true
+		} ],
+		store : dataStore,
+		columns : [{
+			text : '名称',
+			dataIndex : 'name',
+			flex : 1
+		}, {
+			xtype : "actioncolumn",
+			align : "center",
+			text : '操作',
+			items : [{
+				xtype : 'button',
+				tooltip : '编辑',
+				icon : jcapp.getIcon("application_form_edit.png"),
+				handler : function(grid, rowIndex, colIndex) {
+					var rec = grid.getStore().getAt(rowIndex);
+					//alert("编辑 " + rec.get('kid'));
+					myEdit(rec.get('kid'));
+				}
+			}, {
+				xtype : "container"
+			},{
+				xtype : 'button',
+				tooltip : '删除',
+				icon : jcapp.getIcon("cross.png"),
+				handler : function(grid, rowIndex, colIndex) {
+					var rec = grid.getStore().getAt(rowIndex);
+					myDel(rec.get('kid'));
+				}
+			} ]
+
+		} ]
+	}); //#listGridPanel
+	Ext.onReady(function() {
+		listGridPanel.render(Ext.getBody());
+	});
+
+	function myDel(kid) {
+		Ext.Msg.confirm("提示:", "确定删除选定的记录?", function(e) {
+			if (e == "yes") {
+				Ext.Ajax.request({
+					url : getServerHttp() +"/cp/grid/template/del.htm?kid=" + kid,
+					success : function(response) {
+						var json = Ext.decode(response.responseText);
+						Ext.Msg.alert("提示", json.tip.msg);
+						dataStore.load();
+					},
+					failure : function(response) {
+						Ext.Msg.alert("提示", "操作失败!");
+					}
+				});
+			}//#if
+		});
+	}//#myDel
+</script>
+
+<script type="text/javascript" src="add.js?v=1"></script>
+<script type="text/javascript" src="edit.js?v=1"></script>
+
+</head>
+<body>
+
+</body>
+</html>

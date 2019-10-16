@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>富文本编辑器</title>
+    <link href="../../../resource/Hplus-v.4.1.0/css/font-awesome.css?v=4.4.0" rel="stylesheet">
+    <link href="../../../resource/Hplus-v.4.1.0/css/animate.css" rel="stylesheet">
+    <link href="../../../resource/Hplus-v.4.1.0/css/style.css?v=4.1.0" rel="stylesheet">
+	<!-- include libraries(jQuery, bootstrap) -->
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script> 
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script> 
+	<!-- include summernote css/js -->
+	<link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.css" rel="stylesheet">
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
+	 <script src="../../../resource/Hplus-v.4.1.0/js/plugins/summernote/summernote-zh-CN.js"></script>
+	
+</head>
+<body class="gray-bg">
+    <div class="wrapper wrapper-content">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-content no-padding">
+                        <div class="summernote" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+        	$('.summernote').summernote({
+       		  lang: 'zh-CN',
+       		  toolbar: [
+       		    ['style', ['bold', 'italic', 'underline', 'clear']],
+       		    ['font', ['strikethrough', 'superscript', 'subscript']],
+       		    ['fontsize', ['fontsize']],
+       		    ['color', ['color']],
+       		    ['para', ['ul', 'ol', 'paragraph']],
+       		    ['height', ['height']],
+       		    ['picture', ['picture']],
+       		    ['table', ['table']],
+       		    ['fullscreen', ['fullscreen']],
+       		 	['codeview', ['codeview']],
+       		    ['help', ['help']],
+	       	  ],
+       		  callbacks: {
+       			onImageUpload: function(files, editor, $editable) {
+	        		  	var form = new FormData();
+		  	            form.append("file", files[0]);   
+		  	            $.ajax({  
+		  	                data: form,  
+		  	                type: "POST",  
+		  	                url: "/docuflow/upload.htm",  
+		  	                cache: false,  
+		  	                contentType: false,  
+		  	                processData: false,  
+		  	                success: function(msg) {
+		  	                	msg = $.parseJSON(msg);
+		  	                	img_src ="http://"+window.location.host+"/docuflow/img/"+msg.file_id+".htm";
+		  	                	$('.summernote').summernote('insertImage', img_src);  
+		  	                }  
+		  	            });
+	       		  } 
+       		  }
+        	});
+
+			var interval = setInterval(function() {
+				if (window.parent.ad_submiting == true) {
+					clearInterval(interval);
+				} else {
+					window.parent.ad_context = $('.summernote').summernote('code');
+				}
+			}, 1000);
+			
+        });  
+		
+		
+		
+    </script>
+
+    <script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
+    <!--统计代码，可删除-->
+</body>
+
+</html>
